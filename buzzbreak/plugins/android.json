@@ -15,9 +15,6 @@
     },
     "cordova-admob": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "onesignal-cordova-plugin": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {
