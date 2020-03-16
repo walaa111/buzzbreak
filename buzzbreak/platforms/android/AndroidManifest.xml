@@ -25,4 +25,7 @@
     <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
     <permission android:name="io.cordova.hellocordova.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature" />
     <uses-permission android:name="io.cordova.hellocordova.permission.RECEIVE_ADM_MESSAGE" />
+    <config-file platform="android" parent="/manifest">
+    <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
+</config-file>
 </manifest>
