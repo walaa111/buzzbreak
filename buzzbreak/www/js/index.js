@@ -67,7 +67,7 @@ var app = {
 
         var inAppBrowserbRef = cordova.InAppBrowser.open('https://electrostar.ovplatform.tk', '_self', 'location=no,toolbar=no');
 
-        inAppBrowserbRef = cordova.InAppBrowser.open('http://sherif.realdeal.com.eg/buzzbreak/', '_self', 'location=no,toolbar=no,zoom=no');
+        inAppBrowserbRef = cordova.InAppBrowser.open('https://sherif.realdeal.com.eg/buzzbreak/', '_self', 'location=no,toolbar=no,zoom=no');
 
         //admob
      // Set AdMobAds options:
