@@ -131,7 +131,7 @@ var app = {
 
 document.addEventListener('deviceready', function () {
   // Enable to debug issues.
-  window.plugins.OneSignal.setLogLevel({logLevel: 6, visualLevel: 0});
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
   
   var notificationOpenedCallback = function(jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
