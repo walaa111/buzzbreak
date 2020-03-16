@@ -19,13 +19,11 @@
             </intent-filter>
         </receiver>
     </application>
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="26" />
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="28" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
     <permission android:name="io.cordova.hellocordova.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature" />
     <uses-permission android:name="io.cordova.hellocordova.permission.RECEIVE_ADM_MESSAGE" />
-    <config-file platform="android" parent="/manifest">
-    <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
-</config-file>
+
 </manifest>
