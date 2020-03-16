@@ -56,7 +56,7 @@ ext {
     apply from: 'CordovaLib/cordova.gradle'
     // The value for android.compileSdkVersion.
     if (!project.hasProperty('cdvCompileSdkVersion')) {
-        cdvCompileSdkVersion = 26;
+        cdvCompileSdkVersion = null;
     }
     // The value for android.buildToolsVersion.
     if (!project.hasProperty('cdvBuildToolsVersion')) {
@@ -101,7 +101,7 @@ if (hasBuildExtras) {
 }
 
 // Set property defaults after extension .gradle files.
-if (ext.cdvCompileSdkVersion == 26) {
+if (ext.cdvCompileSdkVersion == null) {
     ext.cdvCompileSdkVersion = privateHelpers.getProjectTarget()
 }
 if (ext.cdvBuildToolsVersion == null) {
