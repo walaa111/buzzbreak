@@ -56,7 +56,7 @@ ext {
     apply from: 'CordovaLib/cordova.gradle'
     // The value for android.compileSdkVersion.
     if (!project.hasProperty('cdvCompileSdkVersion')) {
-        cdvCompileSdkVersion = null;
+        cdvCompileSdkVersion = 26;
     }
     // The value for android.buildToolsVersion.
     if (!project.hasProperty('cdvBuildToolsVersion')) {
