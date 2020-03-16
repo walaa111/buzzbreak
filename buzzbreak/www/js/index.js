@@ -125,7 +125,7 @@ var app = {
 
 
            //admob
-//notify
+//notifyz
 // Add to index.js or the first page that loads with your app.
 // For Intel XDK and please add this to your app.js.
 
