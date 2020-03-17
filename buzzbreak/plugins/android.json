@@ -1,31 +1,31 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-admob": {
+      "PACKAGE_NAME": "com.realdealagency.buzzbreak"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.realdealagency.buzzbreak"
     },
-    "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
-        "cordova-admob": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
-        "onesignal-cordova-plugin": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        }
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.realdealagency.buzzbreak"
     },
-    "dependent_plugins": {
-        "cordova-connectivity-monitor": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
-        "cordova-play-services-version-adapter": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        }
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.realdealagency.buzzbreak"
     }
+  },
+  "dependent_plugins": {
+    "cordova-connectivity-monitor": {
+      "PACKAGE_NAME": "com.realdealagency.buzzbreak"
+    },
+    "cordova-play-services-version-adapter": {
+      "PACKAGE_NAME": "com.realdealagency.buzzbreak"
+    }
+  }
 }

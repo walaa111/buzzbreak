@@ -1,15 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
-    "id": "cordova-plugin-inappbrowser.inappbrowser",
-    "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-    "pluginId": "cordova-plugin-inappbrowser",
-    "clobbers": [
-      "cordova.InAppBrowser.open",
-      "window.open"
-    ]
-  },
-  {
     "id": "cordova-connectivity-monitor.connectivity",
     "file": "plugins/cordova-connectivity-monitor/www/connectivity.js",
     "pluginId": "cordova-connectivity-monitor",
@@ -27,6 +18,15 @@ module.exports = [
     ]
   },
   {
+    "id": "cordova-plugin-inappbrowser.inappbrowser",
+    "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+    "pluginId": "cordova-plugin-inappbrowser",
+    "clobbers": [
+      "cordova.InAppBrowser.open",
+      "window.open"
+    ]
+  },
+  {
     "id": "onesignal-cordova-plugin.OneSignal",
     "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
     "pluginId": "onesignal-cordova-plugin",
@@ -38,11 +38,11 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-  "cordova-plugin-whitelist": "1.3.3",
-  "cordova-plugin-inappbrowser": "3.0.0",
   "cordova-connectivity-monitor": "1.2.2",
   "cordova-play-services-version-adapter": "1.0.2",
   "cordova-admob": "5.1.0",
+  "cordova-plugin-inappbrowser": "3.0.0",
+  "cordova-plugin-whitelist": "1.3.3",
   "onesignal-cordova-plugin": "2.8.4"
 };
 // BOTTOM OF METADATA
