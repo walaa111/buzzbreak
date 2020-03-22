@@ -92,7 +92,6 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "onesignal-cordova-plugin/buzzbreak-build-extras-onesignal.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -255,7 +254,6 @@ dependencies {
     debugCompile(project(path: "CordovaLib", configuration: "debug"))
     releaseCompile(project(path: "CordovaLib", configuration: "release"))
     compile "com.google.android.gms:play-services-ads:15.0.0"
-    compile "com.onesignal:OneSignal:3.12.7"
     // SUB-PROJECT DEPENDENCIES END
 }
 
