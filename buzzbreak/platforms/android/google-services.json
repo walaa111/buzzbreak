@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "992394360874",
+    "firebase_url": "https://buzzbreak-c1c9a.firebaseio.com",
+    "project_id": "buzzbreak-c1c9a",
+    "storage_bucket": "buzzbreak-c1c9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992394360874:android:fa55b8c6558f9493d4ab53",
+        "android_client_info": {
+          "package_name": "com.realdealagency.buzzbreak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992394360874-g0dq8dkul8k5ndrcpp0542378juqv1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3jmL0-Jm9V_-9vf43n0senHzPVXu-Pbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992394360874-g0dq8dkul8k5ndrcpp0542378juqv1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
