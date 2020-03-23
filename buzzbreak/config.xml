@@ -34,5 +34,6 @@ buzzbreak
     <preference name="android-targetSdkVersion" value="28" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
     <plugin name="cordova-admob" spec="^5.1.0" />
+     <plugin name="onesignal-cordova-plugin" />
     <engine name="android" spec="~6.3.0" />
 </widget>
